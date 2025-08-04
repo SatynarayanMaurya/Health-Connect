@@ -1,6 +1,81 @@
-# 🩺 HealthConnect - Telemedicine Admin Panel
+# 🩺 HealthConnect – Full-Stack Telemedicine Platform
 
-**HealthConnect** is a full-stack telemedicine platform built to simulate real-world scenarios where pharmacies connect patients to available doctors. This solution provides an admin dashboard for real-time monitoring of doctor availability, session management, and pharmacy device activity.
+**HealthConnect** is a full-featured telemedicine platform designed to simulate real-world scenarios where **pharmacy devices** connect patients with **available doctors** in real time. It includes powerful tools for **Admins**, **Doctors**, and **Pharmacy Devices** to streamline remote consultations, manage availability, and ensure smooth communication.
+
+---
+
+## 🔐 Admin Features
+
+Admins have access to a powerful dashboard to oversee platform operations:
+
+- ✅ **Monitor Real-Time Doctor Availability**
+  - View doctors currently online with status: `Available`, `Busy`, or `Offline`.
+  - Monitor their last activity timestamps.
+
+- 🧠 **Track Active Sessions**
+  - Live tracking of chat sessions between pharmacy devices and doctors.
+  - View session duration and message flow in real time.
+
+- 📍 **Manage Connected Pharmacy Devices**
+  - View all registered pharmacy devices.
+  - Monitor real-time device activity and geolocation.
+
+- 🗃️ **User Account Management**
+  - Approve, suspend, or remove doctor and pharmacy accounts.
+  - View registration details and manage credentials.
+
+- 📊 **Dashboard Analytics**
+  - Key metrics like total active users, session frequency, doctor availability trends, and most active devices.
+
+---
+
+## 🩺 Doctor Features
+
+Doctors are essential users who can manage their availability and connect with patients via chat:
+
+- ✍️ **Register & Manage Profile**
+  - Secure account creation.
+  - Edit name, specialization, contact info, etc.
+
+- 🟢 **Set Availability Status**
+  - Toggle between `Available`, `Busy`, or `Offline`.
+  - Devices can only contact doctors marked as `Available`.
+
+- 💬 **Real-Time Chat with Pharmacy Devices**
+  - Chat with patients through connected pharmacy systems.
+  - Multiple conversations can be handled efficiently.
+
+- 🕓 **Session Logs**
+  - Access history of all consultations.
+  - View chat transcripts, timestamps, and device info.
+
+---
+
+## 🏪 Pharmacy Device Features
+
+Pharmacy devices act as entry points for patients to initiate remote consultations:
+
+- 🖥️ **Device Registration**
+  - Register securely using a unique Device ID.
+  - Pharmacy info linked to each device.
+
+- 🔍 **View Available Doctors**
+  - Instantly fetch a list of doctors who are currently `Available`.
+
+- 📲 **Start Real-Time Chat**
+  - Initiate chat with selected doctors.
+  - Designed for low-latency, high-reliability communication.
+
+- 📜 **Chat History**
+  - Maintain recent session history for continuity.
+  - Access previous consultations made through the device.
+
+---
+
+> 💡 This platform enables a seamless healthcare communication bridge between **pharmacies** and **doctors**, while giving **admins** full visibility and control over the ecosystem.
+
+---
+
 
 ---
 
