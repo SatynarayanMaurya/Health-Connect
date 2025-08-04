@@ -78,7 +78,7 @@ HEALTHCONNECT PRO/
 │
 ├── README.md                # Project documentation
 └── package.json             # Project dependencies and scripts
-
+```
 ---
 
 ## 🛠️ Installation and Setup Instructions
