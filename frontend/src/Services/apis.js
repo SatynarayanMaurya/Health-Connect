@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4000"
+const BASE_URL = "https://health-connect-u164.onrender.com"
 
 
 export const authEndpoints = {
